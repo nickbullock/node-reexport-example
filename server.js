@@ -1,6 +1,8 @@
-const Button = require('my-library');
+const { Button } = require('my-library');
+const { List } = require('my-library/src/List');
 
-console.log(Button);
+new Button();
+new List();
 
 
 
