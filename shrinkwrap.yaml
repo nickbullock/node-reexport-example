@@ -1,5 +1,6 @@
 dependencies:
   express: 4.17.1
+  my-library: 1.0.0
 packages:
   /accepts/1.3.7:
     dependencies:
@@ -31,6 +32,14 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV/a4fX4XWW9CuFNK22krhrj1+rgzifNCsw==
+  /bower/1.8.8:
+    deprecated: 'We don''t recommend using Bower for new projects. Please consider Yarn and Webpack or Parcel. You can read how to migrate legacy project here: https://bower.io/blog/2017/how-to-migrate-away-from-bower/'
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-1SrJnXnkP9soITHptSO+ahx3QKp3cVzn8poI6ujqc5SeOkg5iqM1pK9H+DSc2OQ8SnO0jC/NG4Ur/UIwy7574A==
   /bytes/3.1.0:
     dev: false
     engines:
@@ -251,6 +260,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
+  /my-library/1.0.0:
+    dependencies:
+      bower: 1.8.8
+    dev: false
+    resolution:
+      integrity: sha1-hNMcl06bRPcRPHBa3EDmbSn0BjU=
   /negotiator/0.6.2:
     dev: false
     engines:
@@ -394,3 +409,4 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   express: ^4.17.1
+  my-library: ''

@@ -1,0 +1,7 @@
+{
+  "name": "my-library",
+  "version": "0.0.1",
+  "description": "A simple Node app, instantly up and running.",
+  "main": "index.js",
+  "license": "MIT"
+}
